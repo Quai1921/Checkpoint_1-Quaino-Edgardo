@@ -48,7 +48,7 @@ article img {
 }
 
 .services {
-    padding: 40px;
+    padding: 60px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -86,11 +86,13 @@ article p {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    line-height: 30px;
 }
 
 ul {
     list-style-position: inside;
 }
+
 
 table, 
 th, 
@@ -99,6 +101,7 @@ td {
     border-collapse: collapse;
     width: 175px;
     padding: 3px 5px;
+    font-size: 0.8rem;
 
 }
 
@@ -122,12 +125,14 @@ fieldset {
     padding: 5px 10px;
 }
 
+body {
+    height: 100vh;
+}
 
 @media screen and (max-width: 768px) {
     footer {
         padding: 20px 0;
     }
-    
 }
 
 
